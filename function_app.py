@@ -1,7 +1,7 @@
 # this file is used for the execution of your function app
 import azure.functions as func
 import logging
-from function_file import function_I_want_to_execute # obviously change to your settings
+from myfunction import function_I_want_to_execute # obviously change to your settings (myfunction = the file where your main code is)
 
 app = func.FunctionApp()
 
