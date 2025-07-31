@@ -9,6 +9,13 @@ This is a repository that can be used for local testing and debugging of azure f
 - quit with "ctrl + c"
 - restart function if desired
 
+## Deploying to Azure
+type following commands in your terminal:
+
+- az login (use your credentials)
+- zip -r appname.zip
+- az functionapp deployment source config-zip --name appname --resource-group your-rg --src appname.zip
+
 
 ## FAQ
 - local.settings.json is only used for local development. If you publish the fuinction app to Azure, it is no longer needed.
