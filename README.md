@@ -1,4 +1,4 @@
-# boilerplate_azure_function_app
+# boilerplate_azure_function_app (for version 2)
 This is a repository that can be used for local testing and debugging of azure function apps in Pycharm. Everything can be tested via the PyCharm terminal. No usage of other tools needed. (to be continued).
 
 ## How to use
