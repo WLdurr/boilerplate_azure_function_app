@@ -5,6 +5,7 @@ This is a repository that can be used for local testing and debugging of azure f
 - clone repo
 - switch to folder where the function resides
 - run pip install -r requirements.txt
+- obviously change Azure connection strings and storage account info
 - type "func start"
 - quit with "ctrl + c"
 - restart function if desired
