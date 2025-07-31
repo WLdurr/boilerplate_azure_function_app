@@ -9,6 +9,13 @@ This is a repository that can be used for local testing and debugging of azure f
 - quit with "ctrl + c"
 - restart function if desired
 
+  ---
+### function_app.py
+This file handles the trigger and execution in Azure. 
+
+### my_function.py
+This file contains the main code what your function app intends to do. Webscraping, data transfer, etc. goes in here.
+
 ## Deploying to Azure
 type following commands in your terminal:
 
